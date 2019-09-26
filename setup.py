@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="klog",
+    name="logify",
     version="0.0.1",
     author="Kelvin Tsoi",
     author_email="kelvin@hellospork.com",
