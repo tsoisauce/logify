@@ -1,1 +1,5 @@
-.vscode.DS_Store
+.vscode
+.DS_Store
+build
+dist
+klog.egg-info
