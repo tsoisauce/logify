@@ -2,4 +2,4 @@
 .DS_Store
 build
 dist
-klog.egg-info
+logify.egg-info
