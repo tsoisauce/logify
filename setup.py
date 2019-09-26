@@ -11,7 +11,7 @@ setuptools.setup(
     description="Python package for script logging and DataDog integration",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tsoisauce/klog",
+    url="https://github.com/tsoisauce/logify",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
