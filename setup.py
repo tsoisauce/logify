@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="logify",
-    version="0.0.1",
+    version="0.0.2",
     author="Kelvin Tsoi",
     author_email="kelvin@hellospork.com",
     description="Python package for script logging and DataDog integration",

@@ -11,7 +11,7 @@ def write_to_csv(display_message, message_level, message):
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%s")
         writer = csv.writer(csv_file)
         writer.writerow([timestamp, message_level, message])
-        print('%s  %s | %s | %s' % (display_message, colored(timestamp, 'green'), message))
+        print('%s  %s | %s' % (display_message, colored(timestamp, 'green'), message))
 
 def debug(message):
     format_message = colored(' 🤬   DEBUG    ', 'white', 'on_grey', attrs=['bold'])
